@@ -1,1 +1,5 @@
 This program will interface with a EVI-D30 camera under Linux.  Requires the USPP library which I included with it.
+
+Video can just be read through standard V4L driver as the camera has SVideo out.
+
+This controls the movement of the camera, and uses a VISCA cable connected to a serial to usb adapter.
